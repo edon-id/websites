@@ -1,0 +1,73 @@
+@use "../abstracts/variables" as var;
+@use "../abstracts/mixins" as mix;
+@use "sass:math";
+
+.navbar {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    @extend %section;
+    @include mix.tablet-styles {
+        width: 100%;
+        height: fit-content;
+        position: unset;
+    }
+    .navbarcontent {
+        @extend %wrap;
+        .logo {
+            width: fit-content;
+            @include mix.mobile-l-styles {
+                width: 30%;
+            }
+        }
+        .display-block-mobile {
+            display: none;
+            border: 1px solid var.$text-color-base;
+            padding: math.div(var.$gutter-base, 6);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: (var.$gutter-base * 2);
+            margin-bottom: (var.$gutter-base * 6);
+            li {
+                &:not(:last-child) {
+                    margin-bottom: math.div(var.$gutter-base, 2);
+                }
+                a {
+                    text-decoration: none;
+                    color: var.$text-color-base;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            @include mix.tablet-styles {
+                display: none;
+            }
+        }
+        .footer {
+            a {
+                text-decoration: none;
+                color: var.$text-color-base;
+                font-weight: var.$font-weight-bold;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            @include mix.tablet-styles {
+                display: none;
+            }
+        }
+        @include mix.tablet-styles {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .display-block-mobile {
+                display: block;
+            }
+        }
+    }
+}
