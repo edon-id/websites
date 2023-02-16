@@ -1,0 +1,163 @@
+body {
+  padding-top: 56px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.navbar {
+  padding-top: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 0 !important;
+}
+
+.nav-link, .navbar-brand {
+  padding-left: 10px !important;
+}
+
+.active-border {
+  border-left: 2px solid #fff;
+}
+
+.bg-dark-dark {
+  background-color: black !important;
+}
+
+/* HOME PAGE  */
+
+.carousel-item img {
+  height: 600px;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.parallax-home {
+  background-image: url("./Images/lights.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-video-modal {
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("./Images/media.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+
+/* --------------------------------------------------------  */
+
+/* ABOUT US PAGE  */
+
+.about-us-bg-image {
+  background-image: url("./Images/image1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.center-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.aboutus {
+  position: absolute;
+  left: 150px;
+  bottom: 60px;
+  z-index: 3;
+}
+
+@media (min-width: 768px) {
+  
+  .aboutus {
+    position: absolute;
+    left: 10px;
+    bottom: 60px;
+    z-index: 3;
+  }
+}
+
+/* --------------------------------------------------------  */
+
+/* SERVICES PAGE  */
+
+.services-bg-image {
+  background-image: url("./Images/image1.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.bg-light-dark {
+  background-color: #333333 !important;
+}
+
+.bg-accordion-acc {
+  background-color: #212121 !important;
+}
+
+.btn-link:hover {
+  text-decoration: none !important;
+} 
+
+/* ------------------------------------------------------------- */ 
+
+/* BLOG PAGE  */
+
+.blog-bg-image {
+  background-image: url("./Images/image1.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.blog-borders {
+  border-top: 1px solid rgba(0,0,0,.125);
+  padding-top: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+/* CONTACT PAGE  */
+
+.contact-bg-image {
+  background-image: url("./Images/image1.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.form-border {
+  border: 1px solid #d8d8d8 !important;
+  border-radius: 5px;
+}
+
+.width-85 {
+  margin: 0 auto !important;
+  width: 85% !important;
+}
+
+/* ------------------------------------------------------------- */
