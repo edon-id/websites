@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-img-darken {
+   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(./images/home.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+img{
+   width: 100%;
+}
+
+.input-btn {
+   color: #0000ff;
+   background-color: white;
+   height: 30px;
+   width: 30px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 3px;
+}
+
+.input-btn2 {
+   color: #fff;
+   background-color: #000;
+   height: 30px;
+   width: 30px;
+   padding: 5px;
+   text-align: center;
+   border-radius: 3px;
+}
+
+.bg-color {
+   background-color: purple;
+}
+
+form {
+   background-color: #4900d5;
+}
+
+.create-bg {
+   background-color: #4900d5;;
+}
