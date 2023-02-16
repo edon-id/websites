@@ -1,0 +1,442 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+/* SECTION 1  */
+
+.navbar {
+  background-image: url("./images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+
+.navbar-layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.navbar-inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: relative;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0;
+}
+
+.menu ul li {
+  margin-left: 10px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: #fff;  
+}
+
+.section-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.section-center h1 {
+  font-size: 60px;
+}
+
+.section-center p {
+  font-size: 40px;
+  margin-top: 5px;
+}
+.section-center .btn {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #2791E6;
+  border-radius: 3px;
+  padding: 15px 35px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* _____________________________________ */
+
+/* SECTION 2  */
+.work-section {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.work-section p {
+  padding: 20px 0;
+}
+
+.border-bottom {
+  width: 25%;
+  margin: 0 auto;
+  border-bottom: 2px solid #2791E6;
+}
+
+/* SECTION 2 IMAGES  */
+
+.img-box, .img-box2 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.img1 {
+  flex-basis: 35%;
+  margin-right: 30px;
+  background-image: url("./images/coast.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.img2 {
+  flex-basis: 65%;
+  background-image: url("./images/island.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.img-box2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.img3 {
+  flex-basis: 65%;
+  margin-right: 30px;
+  background-image: url("./images/balloon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+.img4 {
+  flex-basis: 35%;
+  background-image: url("./images/mountain.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+
+/* ____________________________________________________________ */
+
+/* SECTION 3  */
+
+.section-three {
+  background-color: lightgrey;
+}
+/* FEATURES  */
+.features {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+
+}
+
+.features p {
+  padding: 20px 0;
+}
+
+.border-bottom {
+  width: 25%;
+  margin: 0 auto;
+  border-bottom: 2px solid #2791E6;
+}
+
+/* SERVICES  */
+
+.services-box {
+  /* margin-right: -70px; */
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.wrap {
+  display: flex;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.box-inner:not(:last-child) {
+  margin-right: 70px;
+}
+
+.box-inner i {
+  font-size: 30px;
+  color: #2791E6;
+}
+
+/* NEWSLETTER  */
+.newsletter {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 0;
+
+}
+
+.newsletter p {
+  padding: 20px 0;
+}
+
+.border-bottom {
+  width: 25%;
+  margin: 0 auto;
+  border-bottom: 2px solid #2791E6;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 5px;
+}
+/* ________________________________________________________ */
+
+/* SECTION 4  */
+
+.footer {
+  background-color: #414A4F;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-inner i {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #414A4F;
+  line-height: 2em;
+}
+
+.footer-inner p {
+  color: #9B9F9F;
+  margin-top: 20px;
+}
+
+.wht  {
+  color: white;
+}
+
+/* _________________________________________________ */
+
+/* RESPONISVNESS  */
+
+@media (max-width: 768px) {
+
+  /* SECTION 1  */
+
+  .section-center h1 {
+    font-size: 30px;
+  }
+  
+  .section-center p {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  /* ___________________________ */
+
+  /* SECTION 2  */
+
+  .work-section {
+    width: 60%;
+  }
+
+  /* ___________________________ */
+
+  .img-box, .img-box2 {
+    flex-wrap: wrap;
+  }
+
+  .img1 {
+    flex-basis: 100%;
+    margin-right: 0;
+    height: 40vh;
+    margin-bottom: 20px;
+  }
+
+  .img2 {
+    flex-basis: 100%;
+    height: 40vh;
+  }
+
+  .img3 {
+    flex-basis: 100%;
+    margin-right: 0;
+    height: 40vh;
+    margin-bottom: 20px;
+  }
+
+  .img4 {
+    flex-basis: 100%;
+    height: 40vh;
+  }
+
+    /* ___________________________ */
+
+    /* SECTION 3  */
+    .features {
+      width: 60%;
+    }
+
+    .wrap {
+      flex-wrap: wrap;
+    }
+
+    .box-inner:not(:last-child) {
+      margin-right: 0;
+    }
+
+    .box-inner p {
+      width: 40%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    /* ___________________________ */
+
+    /* SECTION 4  */
+
+    .newsletter {
+      width: 60%;
+    }
+
+    input {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+
+    /* ___________________________ */
+}
+
+@media (max-width: 425px) {
+
+  /* SECTION 1  */
+
+  .section-center h1 {
+    font-size: 60px;
+  }
+
+  .section-center p {
+    font-size: 30px;
+  }
+
+  .section-center .btn {
+    width: 100%;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu ul {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .work-section h2,  .features h2, .newsletter h2 {
+    font-size: 40px;
+  }
+
+  .box-inner h4 {
+    font-size: 30px;
+  }
+
+  .navbar-inner {
+    display: block;
+  }
+
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* SECTION 2  */
+
+  .img-box, .img-box2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .img-box2 {
+    margin-bottom: 40px;
+  }
+
+  .img1, .img2, .img3, .img4 {
+    height: 50vh;
+  }
+
+  .img2 {
+    margin-bottom: 20px;
+  }
+
+  .border-bottom {
+    width: 80%;
+  }
+
+  .newsletter input {
+    width: 100%;
+  }
+
+  .newsletter .btn {
+    font-size: 20px;
+    width: 80%
+  }
+
+  .footer-inner {
+    padding: 40px 10px;
+  }
+
+  .footer-inner p {
+    font-size: 20px;
+  }
+
+}
